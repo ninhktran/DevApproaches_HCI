@@ -29,10 +29,10 @@ Our work was divided into 3 phases:
 The research utilized data collected by [Khalajzadeh et al. (2022)](https://dl.acm.org/doi/10.1145/3510458.3513014), comprising 1244 issues from 6 apps. Issues with Human-Computer Interaction (HCI) problems were extracted using **dataParserInitial.py**, then supplemented with GitHub API data through the **dataParserFinal.py**. Then, we added summaries of each issue comment message using gpt-3.5-turbo. This resulted in **PostDataCleaning.xlsx** table. It has 216 issues, 164 of which are relevant since mobile-ios and mobile-android apps were excluded due to the unavailability of issue links.
 
 ### Issues Categorization:
-The team employed open coding to categorize issues, collaborating on 40% and individually handling the remaining 60%. Discrepancies were resolved through discussion, resulting in 158 categorized issues across 7 different categories. The **postCategorization.xlsx** file contains the results of this phase.
+The team employed open coding to categorize issues, collaborating on 40% and individually handling the remaining 60%. Discrepancies were resolved through discussion, resulting in 158 categorized issues across 7 different categories. The **PostCategorization.xlsx** file contains the results of this phase.
 
 ### Code Fixes Categorization:
-For code fixes, the team looked into the issues in the Closed and Merged category and categorized them into high-level categories. It is important to note that we only focused on issues that had commit related to them. Several issues were fixed through new releases and had no related commits, which meant we didn't look at them. A collaborative approach ensured consensus in categorization, leading to a comprehensive understanding of code fixes related to HCI issues. The *8IssueAndCommitCategorizations.xlsx** file contains the results of this phase. This spreadsheet contains our final results.
+For code fixes, the team looked into the issues in the Closed and Merged category and categorized them into high-level categories. It is important to note that we only focused on issues that had commit related to them. Several issues were fixed through new releases and had no related commits, which meant we didn't look at them. A collaborative approach ensured consensus in categorization, leading to a comprehensive understanding of code fixes related to HCI issues. The **IssueAndCommitCategorizations.xlsx** file contains the results of this phase. This spreadsheet contains our final results.
 
 
 ## Results
